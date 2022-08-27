@@ -1,0 +1,37 @@
+Project Corruption of Champions: Definitive Edition
+
+Remaking CoC with proper modern systems
+
+------------< Systems >------------
+React + Electron/Tauri + Js
+
+Files will be loaded in json format but can be hardcoded for the start to ensure we got a working system
+Save games will be saved and loaded in a json format
+
+
+------------< alpha-1 >------------
+
+Setup all UI elements
+
+------------< alpha-2 >------------
+
+Setup character creator
+
+------------< alpha-3 >------------
+
+
+
+
+
+------------< credits >------------
+flaticon
+	rizky adhitya pradana
+	Those Icons
+	Tempo_doloe
+	Pixel perfect
+	Us and Up
+	Muhammad Ali
+	Prosymbols
+	kerismaker
+	joalfa
+	

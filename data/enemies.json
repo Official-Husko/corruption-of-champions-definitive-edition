@@ -1,0 +1,9 @@
+{
+    "version": "alpha-1",
+    "author": "dev-team",
+    "source": "https://github.com/official-husko",
+    "comment": "this is the official enemies file.",
+    "enemies": [{
+        "name": "goblin"
+    }]
+}
