@@ -4,6 +4,43 @@
     "source": "https://github.com/official-husko",
     "comment": "this is the official enemies file.",
     "enemies": [{
-        "name": "goblin"
+        "a": "the",
+        "short": "goblin",
+        "imageName": "goblin",
+        "long": "The goblin before you is a typical example of her species, with dark green skin, pointed ears, and purple hair that would look more at home on a punk-rocker. She's only about three feet tall, but makes up for it with her curvy body, sporting hips and breasts that would entice any of the men in your village were she full-size. There isn't a single scrap of clothing on her, just lewd leather straps and a few clinking pouches. She does sport quite a lot of piercings – the most noticeable being large studs hanging from her purple nipples. Her eyes are fiery red, and practically glow with lust. This one isn't going to be satisfied until she has her way with you. It shouldn't be too hard to subdue such a little creature, right?",
+        "race": "Goblin",
+        "sexOrgan": [false, "DROOLING", "NORMAL"], //taken from vaginal creation but im unsure what "false" is supposed to mean
+        "statusEffect": {
+            "BonusVaginalCapacity": [40, 0, 0, 0], //i have no fucking clue what these values do
+            "BonusAssCapacity": [30, 0, 0, 0]
+        },
+        "breastSize": "E",
+        "ass": ["LARGE", "TIGHT", "DRY"], //size then tightness and then wetness
+        "tallness": [35, 4], //first value is for the base tallness and second value is for a random max number
+        "hipsRating": "AMPLE",
+        "skinTone": "dark green",
+        "hairTone": "purple",
+        "hairLength": 4,
+        "baseStats": [12, 13, 35, 42, 45, 45, 60], // strength, Toughness, Speed, intelligence, Libido, Sensitivity, Corruption
+        "defWeaponName": "fists",
+        "defWeaponVerb": "tiny punch",
+        "armorName": "leather straps",
+        "lust": 50,
+        "temperment": "random", // from what i saw it needs a random value
+        "level": 1,
+        "gems": [5, 5], //first value is the start amount and after that it adds a random amount again of 1 - 5 gems
+        "drops": [{
+            "items": ["GOBLIN_ALE", "L_DRAFT", "PINKDYE", "BLUEDYE", "ORANGDY", "PURPDYE"],
+            "max": 5,
+            "min": 0,
+            "chance": 65 //percent amount for the item to spawn on the enemy
+        }],
+        "specialAttacks": [{
+            "goblinDrugAttack": [
+            {
+                "short": "goblin assassin",
+                "multiplier": ""
+            }]
+        }]
     }]
 }
